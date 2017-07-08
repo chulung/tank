@@ -1,0 +1,10 @@
+<Game gamename="坦克大战">
+	<frame width="768" height="576" border="12" borderpath="image/bg/border/"
+		bgpath="image/bg/mainbg/" viewpath="image/bg/viewbg/">
+		<layer class="com.chulung.tank.ui.LayerGame" x="32" y="64" w="416" h="416" />
+		<layer class="com.chulung.tank.ui.LayerEnemy" x="480" y="64" w="256" h="192" />
+		<layer class="com.chulung.tank.ui.LayerPlayer" x="480" y="288" w="256" h="192" />
+	</frame>
+	<system>
+	</system>
+</Game>

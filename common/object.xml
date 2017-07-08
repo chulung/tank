@@ -1,0 +1,50 @@
+<object>
+	<tank size="28">
+		<player imgpath="image/tank/player1/">
+			<level type="豆丁式" level="1" speed="1" bullet="1" health="50"
+				bulletCount="1" />
+			<level type="谢尔曼式" level="2" speed="2" bullet="2" health="50"
+				bulletCount="1" />
+			<level type="虎式" level="3" speed="2" bullet="2" health="75"
+				bulletCount="2" />
+			<level type="虎式 -改" level="4" speed="2" bullet="4" health="100"
+				bulletCount="2" />
+			<level type="C式" level="5" speed="2" bullet="5" health="200"
+				bulletCount="2" />
+				<level type="C限量版" level="6" speed="3" bullet="6" health="250"
+				bulletCount="2" />
+		</player>
+		<enemy imgpath="image/tank/enemy/">
+			<level type="1号" level="1" speed="2" bullet="1" health="50"
+				bulletCount="2" />
+			<level type="2号" level="2" speed="3" bullet="2" health="25"
+				bulletCount="2" />
+			<level type="3号" level="3" speed="1" bullet="2" health="75"
+				bulletCount="1" />
+			<level type="4号" level="4" speed="1" bullet="2" health="150"
+				bulletCount="1" />
+			<level type="5号" level="5" speed="1" bullet="3" health="200"
+				bulletCount="1" />
+			<level type="6号" level="6" speed="2" bullet="1" health="150"
+				bulletCount="2" />
+			<level type="7号" level="7" speed="4" bullet="2" health="100"
+				bulletCount="2" />
+			<level type="8号" level="8" speed="1" bullet="5" health="500"
+				bulletCount="2" />
+		</enemy>
+	</tank>
+	<bullet size="6" imgpath="image/tank/bullet.gif">
+		<bullet speed="6" firepower="25" />
+		<bullet speed="8" firepower="25" />
+		<bullet speed="8" firepower="50" />
+		<bullet speed="10" firepower="75" />
+		<bullet speed="8" firepower="100" />
+		<bullet speed="10" firepower="100" />
+	</bullet>
+	<tile tilesize="32" imgpath="image/tile/">
+		<tile imgpath="image/defilad.gif" health="0" />
+		<tile imgpath="image/stone.gif" health="200" />
+		<tile imgpath="image/soil.gif" health="100" />
+		<tile imgpath="image/water.jpg" health="0" />
+	</tile>
+</object>
