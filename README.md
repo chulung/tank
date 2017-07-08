@@ -9,4 +9,4 @@
 
 # 架构设计
 也是当时画的设计图，还是有模有样的。
-[](/image/design.png)
+![](image/design.png)
