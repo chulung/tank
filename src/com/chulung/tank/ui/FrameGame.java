@@ -23,16 +23,14 @@ import com.chulung.tank.factory.ConfigFactory;
  * @遗留问题
  */
 public class FrameGame extends JFrame {
+	private static final long serialVersionUID = 1935486369320680504L;
 	
-	private GameControl gameControl;
-
 	/**
 	 * Create the frame.
 	 * @throws Exception 
 	 */
 	public FrameGame(GamePane paneMain,final GameControl gameControl){
 		UIConfig uiConfig= ConfigFactory.getGameConfig();
-		this.gameControl=gameControl;
 		//标题
 		this.setTitle(uiConfig.getGameName());
 		//默认关闭操作

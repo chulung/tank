@@ -90,14 +90,6 @@ public class UIConfig {
 		}
 	}
 	
-	/**
-	 * 加载系统配置
-	 * @param frame
-	 */
-	private void loadSystemConfig(Element frame){
-		//TODO 系统配置
-	}
-
 	public int getWidth() {
 		return width;
 	}
